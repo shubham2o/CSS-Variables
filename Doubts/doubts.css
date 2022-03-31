@@ -1,6 +1,7 @@
 /* CSS :root Selector */
 :root {
     background : yellow;
+    font-size : 20px;
     --main-color : purple;
     --underline : 3px solid black;
     --blue : #1e90ff;
