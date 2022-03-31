@@ -1,4 +1,3 @@
-/* CSS :root Selector */
 :root {
     background : yellow;
     font-size : 20px;
@@ -38,4 +37,28 @@ button {
     color : var(--white);
     border : var(--underline);
     padding : 5px;
+}
+
+
+div {
+    margin : 30px;
+    padding : 30px;
+    border : 5px solid var(--white);
+}
+
+
+.mouseEvent {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+    float: left;
+    padding: 30px;
+    text-align: center;
+    background-color: palevioletred;
+}
+
+
+.mouseFunc {
+    background-color : var(--white);
 }
