@@ -1,0 +1,40 @@
+/* CSS :root Selector */
+:root {
+    background : yellow;
+    --main-color : purple;
+    --underline : 3px solid black;
+    --blue : #1e90ff;
+    --white : #ffffffff;
+}
+
+
+strong {
+    background-color : var(--main-color);
+    color : var(--white);
+    border : var(--underline);
+}
+
+
+body {
+    background-color : var(--blue);
+}
+
+
+h2 {
+    border-bottom : 2px solid var(--blue);
+}
+
+
+.container {
+    color : var(--blue);
+    background-color : var(--white);
+    padding : 15px;
+}
+
+
+button {
+    background-color : var(--main-color);
+    color : var(--white);
+    border : var(--underline);
+    padding : 5px;
+}
