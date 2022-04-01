@@ -62,3 +62,9 @@ div {
 .mouseFunc {
     background-color : var(--white);
 }
+
+
+/* CSS Filter Property */
+img {
+    filter : grayscale(100%);
+}
