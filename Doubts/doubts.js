@@ -1,4 +1,4 @@
-// onmousemove Event
+// Mouse Events
 function myFunction(e) {
     var x = e.clientX;
     var y = e.clientY;
@@ -25,4 +25,16 @@ function myEnterFunction() {
 
 function myOverFunction() {
     document.getElementById("mouseover").innerHTML = y += 1;
+}
+
+
+var a = 0,
+    b = 0;
+
+function myLeaveFunction() {
+    document.getElementById("mouseleave").innerHTML = a += 1;
+}
+
+function myOutFunction() {
+    document.getElementById("mouseout").innerHTML = b += 1;
 }
