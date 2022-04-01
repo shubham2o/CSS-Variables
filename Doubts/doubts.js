@@ -38,3 +38,7 @@ function myLeaveFunction() {
 function myOutFunction() {
     document.getElementById("mouseout").innerHTML = b += 1;
 }
+
+
+// HTML DOM Document documentElement
+document.getElementById("docEl").innerHTML = document.documentElement.nodeName;
