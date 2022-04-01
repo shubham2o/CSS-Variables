@@ -124,9 +124,37 @@
     <!-- setProperty() method -->
     <h2>setProperty() method</h2>
     <p>• The setProperty() method sets a new or modifies an existing CSS property in a CSS declaration block.</p>
+    <!-- EXAMPLE -->
     <p>• <strong>EXAMPLE</strong> -
         Click the button to set a new CSS property.</p>
     <button onclick="mySetProperty()">Try it</button>
+    <br><br>
+    <hr size="30" noshade>
+
+
+    <!-- onchange Event -->
+    <h2>onchange Event</h2>
+    <p>• The onchange event occurs when the value of an element has been changed.</p>
+    <p>• For radiobuttons and checkboxes, the onchange event occurs when the checked state has changed.</p>
+    <p>• This event is similar to the oninput event. The difference is that the oninout event occurs immediately after
+        the value of an element has changed, while onchange occurs when the element loses focus, after the content has
+        been changed. The other difference is that the onchange event also works on select elements.</p>
+    <!-- EXAMPLE -->
+    <p>• <strong>EXAMPLE</strong> -
+        When you select a new car, a function is triggered which outputs the value of the selected car.</p>
+    <select name="" id="mySelect" onchange="myOnchange()">
+        <option value="Audi">Audi</option>
+        <option value="BMW">BMW</option>
+        <option value="Mercedes">Mercedes</option>
+        <option value="Volvo">Volvo</option>
+    </select>
+    <p id="onchangeE"></p>
+    <br>
+    <!-- EXAMPLE -->
+    <p>• <strong>EXAMPLE</strong> -
+        This example uses the addEventListener() method to attach a "change" event to an input element.</p>
+    Enter your name : <input type="text" id="fname">
+    <p>• When you leave the input field, a function is triggered wich transforms the input text to uppercase.</p>
     <hr size="30" noshade>
 
 

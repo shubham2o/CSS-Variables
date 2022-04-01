@@ -49,3 +49,17 @@ function mySetProperty() {
     var declaration = document.styleSheets[0].cssRules[0].style;
     var setprop = declaration.setProperty("border", "50px solid black");
 }
+
+
+// onchange Event
+function myOnchange() {
+    var x = document.getElementById("mySelect").value;
+    document.getElementById("onchangeE").innerHTML = "You selected : " + x;
+}
+
+document.getElementById("fname").addEventListener("change", myOnchangeEvent);
+
+function myOnchangeEvent() {
+    var x = document.getElementById("fname");
+    x.value = x.value.toUpperCase();
+}
