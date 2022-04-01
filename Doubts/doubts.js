@@ -42,3 +42,10 @@ function myOutFunction() {
 
 // HTML DOM Document documentElement
 document.getElementById("docEl").innerHTML = document.documentElement.nodeName;
+
+
+// setProperty() method
+function mySetProperty() {
+    var declaration = document.styleSheets[0].cssRules[0].style;
+    var setprop = declaration.setProperty("border", "50px solid black");
+}
