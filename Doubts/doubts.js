@@ -63,3 +63,19 @@ function myOnchangeEvent() {
     var x = document.getElementById("fname");
     x.value = x.value.toUpperCase();
 }
+
+
+// cssText Property
+function myCssText() {
+    var element = document.getElementsByTagName("h3")[0];
+    var x = element.style.cssText;
+    document.getElementById("cssText").innerHTML = x;
+}
+
+function myCssText1() {
+    var x = document.getElementsByTagName("h3")[1];
+    element = x.style.cssText;
+    document.getElementById("cssText1").innerHTML = element;
+    x.style.cssText = "color : yellow; text-decoration : underline";
+    document.getElementById("cssText2").innerHTML = element;
+}
